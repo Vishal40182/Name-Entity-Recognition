@@ -24,7 +24,7 @@ def cleanText(txt):
     tableWhitespace = str.maketrans('','',whitespace)
     tablePunctuation = str.maketrans('','',punctuation)
     text = str(txt)
-    text = text.lower()
+#     text = text.lower()
     removewhitespace = text.translate(tableWhitespace)
     removepunctuation = removewhitespace.translate(tablePunctuation)
     
